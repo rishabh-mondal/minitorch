@@ -10,6 +10,7 @@ from typing import TYPE_CHECKING
 import numpy as np
 
 from . import operators
+from .operators import prod
 from .autodiff import Context, Variable, backpropagate
 from .tensor_data import TensorData
 from .tensor_functions import (
